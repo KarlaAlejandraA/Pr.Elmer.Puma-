@@ -3,8 +3,8 @@
     margin: auto;
 }
 h2{
-    background-color: antiquewhite;
-    color: grey;
+    background-color: #377000;
+    color:#D3FDAC;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-style: italic;
@@ -17,3 +17,312 @@ li{
     font-size: 20px;
 
 }
+h5 { 
+    background-color:#377000;
+    color: #D3FDAC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;}
+
+    .puma {
+        --pantera-barriga: rgb(167, 120, 63);
+        --pantera-pico: rgb(251, 174, 174);
+        --nariz: rgb(244, 132, 132);
+        position: relative;
+        margin: auto;
+        display: block;
+        margin-top: 5px;
+        width: 1200px;
+        height: 500px;
+        }
+        
+       .puma-superior {
+        top: 10px;
+        left: 25px;
+        background: rgb(202, 166, 121);
+        width: 100px;
+        height: 110pxs;
+        border-radius: 30% 30% 70% 75%;
+       }
+       
+       .puma-inferior {
+        top: 12.5%;
+        left: 23.5%;
+        background: rgb(199, 135, 56);
+        width: 53%;
+        height: 45%;
+        border-radius: 70% 70% 100% 100%;
+        
+       }
+       
+       .mano-derecha {
+        top: 0%;
+        left: 15%;
+        background: rgb(166, 135, 96);
+        width:280px;
+        height:250px;
+        border-radius: 40% 50% 120% 30%;
+        transform: rotate(150deg);
+        z-index: 1;
+       }
+       .mano-derecha-2 {
+        top: 120px;
+        left: 10px;
+        background: rgb(202, 166, 121);
+        width: 250px;
+        height: 250px;
+        border-radius: 30% 30% 120% 30%;
+        transform: rotate(180deg);
+        z-index: -1;
+        }
+        .mano-derecha-3 {
+        top: 70%;
+        left: -5%;
+        background: rgb(202, 166, 121);
+        width: 30%;
+        height: 60%;
+        border-radius: 30% 30% 120% 30%;
+        transform: rotate(185deg);
+        z-index: -1;
+        }
+        .ojo-izquierdo-1 {
+        top: 167%;
+        left: 60%;
+        background: rgb(166, 135, 96);
+        width: 30%;
+        height: 15%;
+        border-radius: 50%;
+        }
+        .ojo-derecho-2 {
+        top: 90%;
+        left: 90%;
+        background: rgb(166, 135, 96);
+        width: 35%;
+        height: 35%;
+        border-radius: 50%;
+        }
+        .ojo-izquierdo-4 {
+        top: 95%;
+        left: 110%;
+        background: rgb(255, 255, 255);
+        width: 20%;
+        height: 5%;
+        border-radius: 50%;
+        transform: rotate(20deg);
+        z-index: -1;
+        }
+        .ojo-izquierdo-5 {
+        top: 105%;
+        left: 110%;
+        background: rgb(255, 255, 255);
+        width: 20%;
+        height: 5%;
+        border-radius: 50%;
+        transform: rotate(20deg);
+        z-index: -1;
+        }
+        .ojo-izquierdo-6 {
+        top: 115%;
+        left: 110%;
+        background: rgb(255, 255, 255);
+        width: 20%;
+        height: 5%;
+        border-radius: 50%;
+        transform: rotate(20deg);
+        z-index: -1;
+        }
+       
+       .mano-izquierda {
+        top: 0%;
+        left: 85%;
+        background: rgb(166, 135, 96);
+        width: 30%;
+        height: 60%;
+        border-radius: 30% 30% 30% 120%;
+        transform: rotate(-188deg);
+        z-index: -1;
+       }
+       .mano-izquierda-2 {
+        top: 70%;
+        left: 75%;
+        background: rgb(202, 166, 121);
+        width: 30%;
+        height: 60%;
+        border-radius: 30% 30% 30% 120%;
+        transform: rotate(-250deg);
+        z-index: -1;
+        }
+        .mano-izquierda-3 {
+        top: 120%;
+        left: 60%;
+        background: rgb(202, 166, 121);
+        width: 30%;
+        height: 60%;
+        border-radius: 30% 30% 120% 30%;
+        transform: rotate(180deg);
+        z-index: -1;
+        }
+        .ojo-derecho-1 {
+        top: 167%;
+        right: 65%;
+        background: rgb(166, 135, 96);
+        width: 30%;
+        height: 15%;
+        border-radius: 50%;
+        }
+        .ojo-derecho-3 {
+        top: 90%;
+        right: 90%;
+        background: rgb(166, 135, 96);
+        width: 35%;
+        height: 35%;
+        border-radius: 50%;
+        }
+        .ojo-derecho-4 {
+        top: 95%;
+        right: 110%;
+        background: rgb(255, 255, 255);
+        width: 20%;
+        height: 5%;
+        border-radius: 50%;
+        transform: rotate(-20deg);
+        z-index: -1;
+        }
+        .ojo-derecho-5 {
+        top: 105%;
+        right: 110%;
+        background: rgb(255, 255, 255);
+        width: 20%;
+        height: 5%;
+        border-radius: 50%;
+        transform: rotate(-20deg);
+        z-index: -1;
+        }
+        .ojo-derecho-6 {
+        top: 115%;
+        right: 110%;
+        background: rgb(255, 255, 255);
+        width: 20%;
+        height: 5%;
+        border-radius: 50%;
+        transform: rotate(-20deg);
+        z-index: -1;
+        }
+       
+       
+       .mejilla-derecha {
+        top: 10%;
+        left: 10%;
+        background: var(--pinguino-barriga, rgb(226, 150, 58));
+        width: 80%;
+        height: 80%;
+        border-radius: 70% 70% 60% 60%;
+       }
+       
+       
+       
+       .barriga {
+        top: 60%;
+        left: 2.5%;
+        background: var(--pantera-barriga, rgb(246, 157, 33));
+        width: 95%;
+        height: 100%;
+        border-radius: 120% 120% 100% 100%;
+       }
+       .barriga-2 {
+        top: 95%;
+        left: 22%;
+        background: var(--pantera-barriga-2, rgb(150, 127, 107));
+        width: 55%;
+        height: 55%;
+        border-radius: 120% 120% 100% 100%;
+        }
+       
+       
+       
+       .ojo-derecho {
+        top: 27%;
+        left: 53%;
+        background: rgb(150, 127, 107);
+        width: 33%;
+        height: 33%;
+        border-radius: 50%;
+       }
+       
+       .ojo-izquierdo {
+        top: 27%;
+        left: 13%;
+        background: rgb(150, 127, 107);
+        width: 33%;
+        height: 33%;
+        border-radius: 50%;
+       }
+       
+       .reflejo-ojos {
+        top: 25%;
+        left: 17.5%;
+        background: white;
+        width: 60%;
+        height: 60%;
+        border-radius: 50%;
+       }
+       .reflejo-ojos-2 {
+        top: 37.5%;
+        left: 31%;
+        background: rgb(0, 0, 0);
+        width: 28%;
+        height: 40%;
+        border-radius: 50%;
+        }
+        .reflejo-ojos-3 {
+        top: 37.5%;
+        left: 155%;
+        background: rgb(0, 0, 0);
+        width: 28%;
+        height: 40%;
+        border-radius: 50%;
+        }
+       
+       
+       .pico-superior {
+        top: 57%;
+        left: 40%;
+        background: var(--pantera-pico, rgb(247, 9, 9));
+        width: 20%;
+        height: 10%;
+        border-radius: 50%;
+       }
+       
+       .pico-inferior-2 {
+        top: 77%;
+        left: 42.5%;
+        background: var(--pantera-pico-2, rgb(255, 0, 0));
+        width: 15%;
+        height: 10%;
+        border-radius: 50%;
+       }
+       .nariz {
+        top: 60.5%;
+        left: 42%;
+        background: var(--nariz, rgb(251, 126, 126));
+        width: 16%;
+        height: 10%;
+        border-radius: 50%;
+        }
+       .pico-inferior-3 {
+        top: 81.5%;
+        left: 42.5%;
+        background: var(--pantera-pico-2, rgb(255, 152, 152));
+        width: 15%;
+        height: 5.5%;
+        border-radius: 50%;
+       }
+       
+       body {
+        background:#BFF58D;
+       }
+       
+       .puma * {
+        position: absolute;
+       }
